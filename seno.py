@@ -3,7 +3,7 @@ import numpy as np
 
 
 x = np.linspace (0, 2*np.pi, 100) 
-seno = np.sin(x) 
+cos = np.cos(x) 
 
-plt.plot(x, seno)
+plt.plot(x, cos)
 plt.savefig('seno.png')
